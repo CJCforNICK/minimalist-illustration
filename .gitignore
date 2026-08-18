@@ -1,0 +1,44 @@
+# Environment files and secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# Private source photos and local working media
+private-inputs/
+private-photos/
+input-photos/
+uploads/
+*.heic
+
+# Generated output images
+outputs/
+generated/
+rendered/
+exports/
+*.tmp.png
+*.tmp.jpg
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor metadata
+.vscode/
+.idea/
+*.code-workspace
+
+# Keep repository skill source and docs tracked
+!.agents/
+!README.md
+!README.zh-TW.md
+!tests/

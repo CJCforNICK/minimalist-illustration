@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minimalist Portrait Line Art"
+  short_description: "Turn portrait photos into minimal black line art"
+  default_prompt: "Use $minimalist-portrait-line-art to turn this portrait photo into clean black-and-white minimal line art."
