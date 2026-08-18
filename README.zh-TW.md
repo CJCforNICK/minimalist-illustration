@@ -4,6 +4,21 @@
 
 `Minimalist Portrait Line Art` 是一個 repository-local 的 Codex Skill，用來把人像、全身照、時尚穿搭照、雙人照或多人照轉換成乾淨的黑白極簡人物線稿。它的目標是在保留人物數量、姿勢、構圖、服裝輪廓與重要辨識線索的前提下，把照片中的細節重新詮釋成少量、刻意、帶有手繪感的線條。
 
+## 專案狀態
+
+這個 repository 現在已經可以公開分享，屬於偏早期、以文件與 skill 規格為主的專案。它包含 skill 指令、prompt 結構、品質標準與測試案例，但不包含託管服務、影像模型，或內建的人像範例素材。
+
+## 快速開始
+
+1. 在支援 repository-local skills 的 Codex 環境中開啟這個 repository。
+2. 附上一張你有權使用的來源照片。
+3. 呼叫 `$minimalist-portrait-line-art`。
+4. 要求產生一張乾淨的黑白極簡線稿結果。
+
+範例：
+
+`Use $minimalist-portrait-line-art to turn this portrait photo into clean black-and-white minimal line art while preserving the hairstyle, face direction, expression, and clothing silhouette.`
+
 ## 這個 Skill 會做什麼
 
 - 把輸入照片轉換成黑白極簡人物線稿
@@ -100,6 +115,7 @@ README.zh-TW.md
 ## 隱私指引
 
 - 不要提交私人肖像照片
+- 不要把私人肖像上傳到公開的 issue、pull request 或示範資料夾
 - 不要把使用者上傳照片存進 skill
 - 若要公開可辨識人物照片，請先取得當事人同意
 - 不要把參考照片嵌成 base64 內容
@@ -114,6 +130,15 @@ README.zh-TW.md
 ## 成本與基礎設施
 
 這個 repository 不會替使用者支付、代理或代管影像生成。實際生成能力取決於使用者自己的 ChatGPT 或 Codex 環境，可用量也可能計入使用者自己的方案或圖片生成額度。此專案不引入持續性的基礎設施成本。
+
+## 公開分享前檢查
+
+在把這個 repository 對外分享前，請再確認：
+
+- 沒有提交任何私人肖像照片
+- 沒有把受版權保護的參考頁面複製進 repository
+- 公開範例都使用自有、已授權或可自由再利用的影像
+- 你可以接受目前「尚未決定授權條款」的公開狀態
 
 ## 目前限制
 

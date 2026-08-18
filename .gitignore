@@ -11,6 +11,26 @@ private-photos/
 input-photos/
 uploads/
 *.heic
+private-inputs/**/*.jpg
+private-inputs/**/*.jpeg
+private-inputs/**/*.png
+private-inputs/**/*.webp
+private-inputs/**/*.avif
+private-photos/**/*.jpg
+private-photos/**/*.jpeg
+private-photos/**/*.png
+private-photos/**/*.webp
+private-photos/**/*.avif
+input-photos/**/*.jpg
+input-photos/**/*.jpeg
+input-photos/**/*.png
+input-photos/**/*.webp
+input-photos/**/*.avif
+uploads/**/*.jpg
+uploads/**/*.jpeg
+uploads/**/*.png
+uploads/**/*.webp
+uploads/**/*.avif
 
 # Generated output images
 outputs/
@@ -19,6 +39,22 @@ rendered/
 exports/
 *.tmp.png
 *.tmp.jpg
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.jpeg
+outputs/**/*.webp
+generated/**/*.png
+generated/**/*.jpg
+generated/**/*.jpeg
+generated/**/*.webp
+rendered/**/*.png
+rendered/**/*.jpg
+rendered/**/*.jpeg
+rendered/**/*.webp
+exports/**/*.png
+exports/**/*.jpg
+exports/**/*.jpeg
+exports/**/*.webp
 
 # Temporary files
 tmp/

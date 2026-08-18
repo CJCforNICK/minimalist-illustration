@@ -4,6 +4,21 @@
 
 Minimalist Portrait Line Art is a repository-local Codex Skill for transforming portrait, full-body, fashion, couple, and group photos into clean black-and-white minimalist line art. It is designed to preserve the people, pose, composition, clothing silhouette, and important identity cues while simplifying photographic detail into intentional hand-drawn lines.
 
+## Project status
+
+This repository is publicly shareable today as an early, documentation-first skill project. It contains skill instructions, prompt structure, quality criteria, and test cases. It does not contain a hosted service, an image model, or bundled portrait examples.
+
+## Quick start
+
+1. Open this repository in a Codex environment that supports repository-local skills.
+2. Attach a user-owned or properly licensed source photo.
+3. Invoke `$minimalist-portrait-line-art`.
+4. Ask for one clean black-and-white line-art result.
+
+Example:
+
+`Use $minimalist-portrait-line-art to turn this portrait photo into clean black-and-white minimal line art while preserving the hairstyle, face direction, expression, and clothing silhouette.`
+
 ## What the Skill does
 
 - Turns supplied photos into sparse black-and-white portrait line art
@@ -103,6 +118,7 @@ This repository currently uses a textual test plan in [tests/test-cases.md](test
 ## Privacy guidance
 
 - Do not commit private portrait photos
+- Do not upload private portraits into public issues, pull requests, or example folders
 - Do not store user-uploaded photos inside the skill
 - Remind contributors to obtain consent before publishing identifiable portraits
 - Do not embed reference photos as base64 data
@@ -117,6 +133,15 @@ This repository currently uses a textual test plan in [tests/test-cases.md](test
 ## Cost and infrastructure
 
 The repository does not pay for, proxy, or meter user generations. Image generation depends on capabilities available in the user's own ChatGPT or Codex environment, and usage may count against the user's own plan or image-generation allowance. The repository introduces no recurring infrastructure cost.
+
+## Public sharing checklist
+
+Before sharing this repository publicly, confirm:
+
+- No private portraits were committed
+- No copyrighted reference pages were copied into the repository
+- Public examples use owned, licensed, or freely reusable images
+- You are comfortable sharing the current no-license-yet project status
 
 ## Current limitations
 
