@@ -21,6 +21,7 @@ Drawing logic:
 - Establish the pose skeleton first, then large body masses, then graphic fills, then primary contour fragments, then clothing-layer boundaries, then identity symbols.
 - Use only structural lines, essential boundary lines, and identity lines.
 - Treat the face as expression symbols: dots and short strokes for eyes, nose, and mouth, not realistic likeness.
+- If the source face is mostly hidden, preserve the obscuration and do not invent a complete symbolic face.
 - For curly or textured hair, use a few uneven silhouette decisions, not evenly repeated cloud scallops.
 - Preserve boundary breaks that keep garments and limbs readable.
 - Leave nonessential contours open; let the viewer complete obvious body, garment, and object shapes.
@@ -38,6 +39,7 @@ Successful simplification pattern:
 - Preserve source structure through pose, gaze, crop, hairstyle category, clothing silhouette, and object ownership.
 - Rebuild the person as a cute, simple, symbol-like figure, not as a faithful face drawing.
 - Make the face with the fewest readable marks: one dot or dash eye, one tiny dash/dot/hook nose, and one small mouth curve when needed.
+- If the face is obscured, use the obscuring brim, hair, sunglasses, mask, object, angle, or crop as the face cue instead of adding eyes, nose, and mouth.
 - Treat hands as gesture symbols: a few rounded marks that show holding, pointing, peace sign, or relaxed position, not anatomical fingers.
 - Treat shoes and accessories as silhouette cues unless they are the main identity anchor.
 - Use one or two black fills as graphic anchors, not as shadows or material rendering.
@@ -205,6 +207,17 @@ Use this when the body and objects are acceptable but the face still looks like 
 When the requested direction is cuter or simpler, use this phrasing:
 
 Revise the face as symbolic marks only. Keep the same head angle and expression category, but do not draw a realistic face. Use one tiny dot or short dash for the eye, one tiny dash/dot/hook for the nose, and one small soft mouth curve if needed. Remove realistic lips, nostrils, eyelids, cheek modeling, facial planes, smile anatomy, and portrait likeness construction. The expression should read as simple, friendly, and innocent through mark placement, not through detailed features.
+
+## 10e. Correcting invented visible face
+
+Use case: Correction when the source face is hidden or barely visible but the result invents a complete face
+Primary request: Preserve the original face obscuration instead of adding a full symbolic expression.
+Change only: Face visibility, headwear/occluder relationship, and unnecessary facial marks
+Keep unchanged: Pose, crop, head angle, clothing silhouette, hands, held objects, accessories, and line economy
+Allowed marks: Cap brim, hair edge, mask edge, sunglasses shape, jaw edge, chin curve, ear, one partial lower-face mark, or no facial marks
+Avoid: Full dot-eye pairs, complete eyes-nose-mouth expression, realistic face, cute cheeks, visible smile anatomy, or changing the head angle to reveal the face
+
+Use this when a good minimalist result incorrectly makes the person look at the viewer or shows a full face that the source did not reveal.
 
 ## 10c. Correcting cloud-like curly hair
 

@@ -73,10 +73,13 @@ Require:
 - A jaw or chin contour when useful
 - Essential hairline information only
 
+If the source face is obscured by a cap brim, hair, sunglasses, mask, object, motion, low head angle, or crop, preserve the obscuration. Do not add a complete cute face just because the style uses facial symbols. The visible hat brim, shadow edge, head tilt, jaw, chin, ear, or hair mass may be the correct facial information.
+
 Avoid:
 
 - Facial likeness as the main recognition strategy
 - Correcting a face by adding more realistic facial information
+- Inventing visible eyes, nose, or mouth when the source face is mostly hidden
 - Photorealistic skin
 - Pores
 - Detailed eyelashes

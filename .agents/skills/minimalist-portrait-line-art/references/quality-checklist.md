@@ -29,6 +29,7 @@ Confirm:
 - Correct pose
 - Correct head direction
 - Correct gaze
+- Correct face visibility, including hidden or barely visible faces
 - Correct hand gestures
 - Correct hand ownership for each gesture
 - Correct held-object ownership and hand placement
@@ -74,6 +75,7 @@ Confirm:
 - Hair is represented as shapes rather than individual strands
 - Facial recognition is not based on realistic eyes, teeth, lips, nose, or beard texture
 - Face direction and expression remain readable through a few marks
+- Hidden faces remain hidden; the drawing does not invent a full expression when the source face is obscured
 - Nose and facial hair are symbolic cues, not modeled portrait features
 - Curly or textured hair is not simplified into evenly repeated cloud scallops
 - The output remains readable at thumbnail size
@@ -127,6 +129,7 @@ Check for:
 | Too realistic | Face, hands, or materials look overly rendered | Simplify facial, hand, or material detail only | Composition, hairstyle, clothing silhouette | Revise once |
 | Facial over-likeness | Eyes, teeth, lips, nose, beard, or skin are modeled like a portrait likeness | Replace facial detail with dot-and-line expression symbols only | Pose, crop, head direction, expression category, hairstyle silhouette, accessories | Revise once |
 | Cute style drift | The result becomes cute by adding chibi proportions, decorative eyes, cheeks, or extra expression detail | Reduce cuteness to simple mark placement and preserve original proportions | Pose, crop, body proportions, clothing silhouette, accessories | Revise once |
+| Invented visible face | Source face is hidden by brim, hair, sunglasses, mask, object, angle, motion, or crop, but output adds a complete visible face | Restore the obscuring element and remove unnecessary facial symbols | Pose, crop, head angle, clothing silhouette, hands, accessories, held objects | Revise once |
 | Nose or beard modeling | Nose has bridge/nostril structure, or mustache/beard is drawn as a shaped portrait feature | Reduce nose to one dot, dash, hook, or short angle; reduce facial hair to one abstract cue | Pose, crop, expression category, hairstyle silhouette, clothing, accessories | Revise once |
 | Cloud-like curly hair | Curly hair becomes an evenly scalloped cartoon cloud or repeated decorative bumps | Replace with fewer, larger, uneven silhouette decisions | Head size, face direction, expression marks, hairstyle category, pose, crop | Revise once |
 | Too generic | A key identity cue is missing | Restore one missing cue only | Existing simplification, pose, crop | Revise once |

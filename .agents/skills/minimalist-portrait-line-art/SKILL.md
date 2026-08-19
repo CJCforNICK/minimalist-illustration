@@ -32,6 +32,8 @@ Treat structural readability as more important than photographic outline fidelit
 
 Do not solve recognizability by drawing realistic facial likeness. Preserve face direction, expression category, hairstyle, facial-hair category, glasses, and posture instead. Eyes, nose, and mouth should usually be dot-and-line symbols, not modeled features. A nose should normally be one dot, dash, or short angle; facial hair should be one abstract cue, not a shaped mustache or beard drawing.
 
+When the source face is obscured by a cap brim, hair, sunglasses, mask, object, motion, low head angle, or crop, preserve that obscuration instead of inventing a complete symbolic face. Use the visible brim, head tilt, jaw edge, chin, ear, hair mass, or lower-face contour as the identity cue. In these cases, the best `Face symbols` may be one partial mark or none.
+
 For curly or textured hair, preserve the silhouette rhythm without turning the outline into evenly spaced cloud scallops. Use a few uneven, larger contour decisions rather than many identical bumps.
 
 Solid fills are identity anchors, not shading. Default to pure black fills only; use a single pure-color accent only when the user explicitly asks for color. Use fills only for one or two important shapes such as hair, a cap, or a bag.
@@ -72,6 +74,7 @@ Before generation, identify and preserve:
 - Leg position or walking stance
 - Head direction
 - Gaze direction
+- Face visibility and any face-obscuring element
 - Body proportions
 - Hairstyle
 - Expression
@@ -95,6 +98,7 @@ The `Pose Map` should include:
 - Subject count and left-to-right order when relevant
 - View angle, crop, and body orientation
 - Head direction and gaze direction
+- Face visibility, especially when the face is hidden by a brim, hair, mask, sunglasses, object, angle, motion, or crop
 - Torso angle and weight-bearing stance
 - Each visible arm and hand, including uncertain or hidden hands
 - Each visible leg and foot, including crouching, kneeling, walking, crossed, hidden, or cropped positions
@@ -165,6 +169,7 @@ Every prompt should include an explicit simplification stance. State that the re
 - avoid layered line buildup
 - avoid realistic feature modeling
 - preserve expression with dot-and-line facial symbols, not facial likeness
+- preserve face obscuration when the source face is hidden; do not invent a full face
 - reduce hands, shoes, and accessories to posture cues unless detail is needed for object ownership
 - prefer omission over explanation
 
